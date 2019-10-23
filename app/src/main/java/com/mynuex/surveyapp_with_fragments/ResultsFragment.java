@@ -91,8 +91,8 @@ public class ResultsFragment extends Fragment {
             public void onClick(View view) {
                 mYesCount = 0;
                 mNoCount = 0;
-                yesView.setText(mYesCount);
-                noView.setText(mNoCount);
+                yesView.setText("YES: " + mYesCount);
+                noView.setText("NO: " + mNoCount);
                 mResetListener.resetResults(mYesCount, mNoCount);
             }
         });
@@ -103,11 +103,11 @@ public class ResultsFragment extends Fragment {
     public void setYesResults(int yesCountTotal) {
         // Display votes
         mYesCount = yesCountTotal;
-        yesView.setText(mYesCount);
+        yesView.setText("YES: " + mYesCount);
     }
 
     public void setNoResults(int noCountTotal) {
         mNoCount = noCountTotal;
-        noView.setText(mNoCount);
+        noView.setText("NO: " + mNoCount);
     }
 }
