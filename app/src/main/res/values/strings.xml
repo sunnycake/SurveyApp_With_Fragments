@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SurveyApp_With_Fragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="reset_button">Reset</string>
+    <string name="survey_question_textView">Are you going trick-or-treating?</string>
+    <string name="yes_vote_textView">0</string>
+    <string name="no_vote_textView">0</string>
+    <string name="results_header_textView">Survey Results</string>
+    <string name="new_question_editText">Prefer a new survey question? Enter here</string>
+    <string name="option_one">Option One</string>
+    <string name="option_two">Option Two</string>
+    <string name="save_button">Save</string>
+
+</resources>
